@@ -18,6 +18,7 @@ export const ListContainer = styled.ul`
   margin-top: 4.125rem;
   list-style: none;
   li {
+    color: ${(props) => props.theme["base-text"]};
     display: flex;
     align-items: center;
     gap: 0.5rem;
